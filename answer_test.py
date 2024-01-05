@@ -2,8 +2,8 @@ import answer
 
 
 def is_answered():
-    assert not answer.answer()
+    assert answer.answer()
 
 
 def test_answer():
-    assert answer.answer() == 42
+    assert answer.answer() == 171
